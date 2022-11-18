@@ -5,5 +5,9 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          
+        <Style TargetType="{x:Type Rectangle}"/>
+        <ControlTemplate x:Key="ButtonTemplate1" TargetType="{x:Type Button}">
+            <Grid/>
+        </ControlTemplate>
     </Application.Resources>
 </Application>
